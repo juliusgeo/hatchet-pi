@@ -1,0 +1,15 @@
+[project]
+name = "hatchet-pi"
+version = "0.1.0"
+description = "Calculate Pi with Hatchet"
+authors = [{name = "Julius Park", email = "julius@hatchet.run"}]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "hatchet-sdk>=1.20.2",
+    "mpmath>=1.4.0",
+]
+
+[project.scripts]
+simple = "src.run:main"
+worker = "src.worker:main"
