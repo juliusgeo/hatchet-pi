@@ -1,6 +1,14 @@
 ## Hatchet Python Quickstart - hatchet-pi
 
-This is an example project demonstrating how to use Hatchet with Python. For detailed setup instructions, see the [Hatchet Setup Guide](https://docs.hatchet.run/home/setup).
+This is an example project demonstrating how to use Hatchet with Python to calculate Pi. 
+For detailed setup instructions, see the [Hatchet Setup Guide](https://docs.hatchet.run/home/setup).
+
+## Proof
+
+% uv run python src/run.py
+Calculated pi: 3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117069
+Reference pi:  3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117068
+Error: 1.028688652154047483994205193474806863506718995340518795093613258904869372316064376107903219674154827e-99
 
 ## Prerequisites
 
